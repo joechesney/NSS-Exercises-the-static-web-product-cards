@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+article {
+    width: 30%;
+    border: 1px solid lightblue;
+    margin-top: 3em;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 2em auto;
+}
+
+header {
+    border: 1px dotted lightgray;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.caption {
+    text-align: justify;
+    margin: 0 auto 1em auto;
+    width: 90%;
+}
+
+p.available {
+    color: yellow;
+    background-color: darkgray;
+    padding: 3px;
+    margin-bottom: 1em;
+}
+
+.s2 p,
+.s2 h3,
+.s3 p,
+.s3 h3 {
+    font-weight: 700;
+}
+
+.s2 p,
+.s3 p {
+    margin-left: .5em;
+}
+
+section.s2,
+section.s3{
+    margin-left: 1em;
+}
+footer {
+    margin-left: -1em;
+    font-size: .75em;
+}
+
+p, h3 {
+    margin: 0;
+}
